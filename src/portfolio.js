@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Leandro Pereira Portfolio",
     type: "website",
-    url: "http://leandropdev.vercel.app/",
+    url: "http:///lnportfolio.vercel.app/",
   },
 };
 
