@@ -145,8 +145,6 @@
   top: 0;
 }
 
-
-
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -157,6 +155,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
   }
   .header .menu {
     max-height: none;
@@ -182,7 +185,7 @@
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s ease, visibility 0.3s ease;
-    width: 100%; 
+    width: 100%;
   }
 
   .header .menu-btn:checked ~ .menu {
@@ -192,9 +195,8 @@
     width: 100%;
     text-align: center;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
   }
-
 
   .header .menu li {
     width: 100%;
@@ -202,36 +204,35 @@
   }
 
   .header .menu li a {
-    display: block;  
-    width: 100%;    
+    display: block;
+    width: 100%;
     padding: 20px;
     color: #e0e0e0;
-    text-align: center; 
-    font-size: 1.2em;   
+    text-align: center;
+    font-size: 1.2em;
 
+    .header .menu-icon {
+      display: block;
+    }
 
-  .header .menu-icon {
-    display: block;
+    .header .menu-icon .navicon:before {
+      top: 5px;
+    }
+
+    .header .menu-icon .navicon:after {
+      top: -5px;
+    }
+
+    .header .menu-btn:checked ~ .menu-icon .navicon {
+      background: transparent;
+    }
+
+    .header .menu-btn:checked ~ .menu-icon .navicon:before {
+      transform: rotate(-45deg);
+    }
+
+    .header .menu-btn:checked ~ .menu-icon .navicon:after {
+      transform: rotate(45deg);
+    }
   }
-
-  .header .menu-icon .navicon:before {
-    top: 5px;
-  }
-
-  .header .menu-icon .navicon:after {
-    top: -5px;
-  }
-
-  .header .menu-btn:checked ~ .menu-icon .navicon {
-    background: transparent;
-  }
-
-  .header .menu-btn:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
-  }
-
-  .header .menu-btn:checked ~ .menu-icon .navicon:after {
-    transform: rotate(45deg);
-  }
-}
 }

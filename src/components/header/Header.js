@@ -22,7 +22,7 @@ class Header extends Component {
     return (
       <Fade top duration={1000} distance="20px">
         <SeoHeader />
-        <div>
+        <div className="header-wrapper">
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
               <span style={{ color: theme.text }}> &lt;</span>

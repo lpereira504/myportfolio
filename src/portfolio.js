@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Leandro Pereira Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http:///lnportfolio.vercel.app/",
   },
 };
 
@@ -26,8 +26,8 @@ const greeting = {
     "A highly motivated individual, always eager to take on new challenges and enthusiastic about collaborating with teams to build impactful, sustainable, and scalable social and technical solutions.",
   resumeLink:
     "https://drive.google.com/file/d/1RVxWYZdCgAEdeq5WOOj8DhbCUpTlT2EI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/n0t666",
+  portfolio_repository: "https://github.com/lpereira504/myportfolio",
+  githubProfile: "https://github.com/lpereira504",
 };
 
 const socialMediaLinks = [
@@ -42,7 +42,7 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/n0t666",
+    link: "https://github.com/lpereira504",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
