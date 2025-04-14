@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Leandro Pereira Portfolio",
     type: "website",
-    url: "http:///lnportfolio.vercel.app/",
+    url: "http://leandropdev.vercel.app/",
   },
 };
 
@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A highly motivated individual, always eager to take on new challenges and enthusiastic about collaborating with teams to build impactful, sustainable, and scalable social and technical solutions.",
   resumeLink:
-    "https://drive.google.com/file/d/1RVxWYZdCgAEdeq5WOOj8DhbCUpTlT2EI/view?usp=sharing",
+    "https://drive.google.com/file/d/1mBfzCUrW_h9rkd3_fB_1NTvgiiYl8X6m/view?usp=sharing",
   portfolio_repository: "https://github.com/lpereira504/myportfolio",
   githubProfile: "https://github.com/lpereira504",
 };
